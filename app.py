@@ -99,7 +99,10 @@ def samples(sample):
         "otu_labels": sample_data.otu_label.tolist(),
     }
     return jsonify(data)
-
+try:
+   int('')
+except ValueError:
+   pass      # or whatever
 
 if __name__ == "__main__":
     app.run()
