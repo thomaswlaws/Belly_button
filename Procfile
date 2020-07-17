@@ -1,1 +1,1 @@
-web: gunicorn Belly_Button:app
+web: gunicorn Belly_button.wsgi
