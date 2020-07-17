@@ -11,7 +11,7 @@ from sqlalchemy import create_engine
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
+app = Flask(__name__template_folder='templates')
 
 
 #################################################
@@ -29,7 +29,7 @@ Base.prepare(db.engine, reflect=True)
 # Save references to each table
 Samples_Metadata = Base.classes.sample_metadata
 Samples = Base.classes.samples
-app=Flask(__name__,template_folder='templates')
+
 
 @app.route("/")
 def index():
