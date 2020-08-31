@@ -1,12 +1,10 @@
-# Plot.ly Analysis - Belly Button Biodiversity
+A Plotly dashboard within a Flask app deployed to Heroku at https://belly-button-diversity-thomasl.herokuapp.com/. This dashboard was created to visualize the Belly Button Diversity Dataset. This full stack application was created using a SQLite/Flask/Python backend combined with an HTML frontend and Javascript as a middle layer to connect the two ends. Users can select a sample number from the drop down menu to select the participant in the study and view the dashboard changing with respect to the participant's measurements.
 
+The following plots are included in the dashboard using the Plotly.js framwork:
 
-
-In this project, I built an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
-
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
-
-
+A pie chart to view the proportion of the top 10 samples and their OTU ID and bacteria info on hover
+A bubble chart to see OTU_IDs vs. the sample value with the size of the bubble determined by the sample value
+A gauge chart to show the amount of belly button scrubs per week for the participant sample
 
 
 ### About the Data
