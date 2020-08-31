@@ -2,9 +2,9 @@ A Plotly dashboard within a Flask app deployed to Heroku at https://belly-button
 
 The following plots are included in the dashboard using the Plotly.js framwork:
 
-A pie chart to view the proportion of the top 10 samples and their OTU ID and bacteria info on hover
-A bubble chart to see OTU_IDs vs. the sample value with the size of the bubble determined by the sample value
-A gauge chart to show the amount of belly button scrubs per week for the participant sample
+  A pie chart to view the proportion of the top 10 samples and their OTU ID and bacteria info on hover
+  A bubble chart to see OTU_IDs vs. the sample value with the size of the bubble determined by the sample value
+  A gauge chart to show the amount of belly button scrubs per week for the participant sample
 
 
 ### About the Data
